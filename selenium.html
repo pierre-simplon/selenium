@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/moon.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<section>
+						<h3>Qu'est ce que Selenium ?</h3>
+					</section>
+					<section>
+						<h3>C'est un complement alimentaire</h3>
+						<img src="./covid.png" width="150" height="150" alt="covid">
+						<img src="./selenium-box.jpg" width="140" height="300" charset="utf-8"></script>
+						<img src="./covid.png" width="150" height="150" alt="covid">
+						<p>Cela renforce le systeme immunitaire</p>
+					</section>
+					<section>
+						<h3>C'est un composé chimique</h3>
+						<img src="./selenium-symbol.jpg" charset="utf-8"></script>
+						<p>Il fait parti du tableau prériodique de Mendeleiev</p>
+					</section>
+					<section>
+						<h3>C'est un des nombreaux outils Devops</h3>
+						<img src="./selenium-logo-devops.png" charset="utf-8"></script>
+					</section>
+					<section>
+						<img src="./selenium_logo_large.png" alt="">
+						<p>
+							Il s'agit d'une des suites d'utilitaires gratuites et open source permettant de tester automatiquement des applications web sur differents navigateurs et OS.
+						</p>
+					</section>
+					<section>
+						<h3>Pourquoi automatiser les tests fonctionnels ?</h3>
+						<ul>
+							<li class="fragment">La rédaction et la mise à jour de cahiers de tests est chronophage</li>
+							<li class="fragment">L'execution des tests peut être rébarbative</li>
+							<li class="fragment">Le cahier de tests est incompréhensible ou est devenu obsolète</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Executer les mêmes tests sur toutes les plateforme Manuellement ?</h3>
+						<p>
+							<ul>
+								<li class="fragment">PC de bureau</li>
+								<li class="fragment">PC Portable</li>
+								<li class="fragment">Tablette</li>
+								<li class="fragment">SmartPhone</li>
+								<img src="./suicide.gif" alt="suicide gif" class="fragment">
+							</ul>
+						</p>
+					</section>
+					<section>
+						<p>
+							Selenium est composé de 3 utilitaires répondant à differents besoins de tests
+							<ul>
+								<li class="fragment">Selenium Webdriver</li>
+								<li class="fragment">Selenium Grid</li>
+								<li class="fragment">Selenium IDE</li>
+							</ul>
+						</p>
+					</section>
+					<section>
+						<h3>Historique</h3>
+							<h4>Début en 2004</h4>
+							<p>Le premier module de base "JavaScriptTestRunner" a été créé par Jason Huggins à Chicago.</p>
+							<p>Ensuite avec des collegues ils ont proposés d'ouvrir le code rapidement et ont proposés des solutions open source en Java et Ruby</p>
+					</section>
+					<section>
+							<h4>Selenium Grid </h4>
+							Patrick Lightbody developpe la premiere version de cet utilitaire permettant initialement de prendre des captures d'écran et d'envoyer des commandes selenium à differentes machines simultanéement.
+					</section>
+					<section>
+					<h4>Selenium IDE</h4>
+							Shinya Kasatani au Japon developpe la premiere version de cet utilitaire permettant d'enregistrer et rejouer des tests facilement depuis une extension du navigateur.
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3> Differents cas d'usages </h3>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							#### Webdriver
+
+							Permet de controler le comportement de la majorité des navigateurs du marché (Firefox, Chrome, Safari...)
+							Web driver est devenu un standard [W3C](https://www.w3.org/TR/webdriver1/) ce qui assure sa perennité.
+
+							S'integre avec les frameworks de tests de developpement (Junit,TestNg...).
+						</textarea>
+					</section>
+					<section>
+						<h4> Un exemple d'usage simplifié à l'aide de <strong>Selenium IDE</strong></h4>
+						<p>Demo d'enregistrement et replay</p>
+						<ul>
+							<li class="fragment">Télécharger l'extension <a href="https://www.selenium.dev/selenium-ide/"> Chrome et Firefox </a></li>
+							<li class="fragment">Télécharger le fichier .slide </li>
+							<li class="fragment">Lancer le test depuis Selenium IDE</li>
+						</ul>
+					</section>
+					<section>
+						<h4> ... Puis utilisation en ligne de commande</h4>
+						Installer le lanceur et les drivers avec npm
+							<pre><code data-trim data-noescape>
+								npm install -g selenium-side-runner
+								npm install -g chromedriver
+								npm install -g geckodriver
+							</code></pre>
+						Et lancer votre test en ligne de commande
+							<pre><code data-trim data-noescape>
+								selenium-side-runner -c "browserName=firefox" /path/to/file.side
+								selenium-side-runner -c "browserName=chrome" /path/to/file.side
+							</code></pre>
+						<img src="./chrome-results.jpg" alt="resultats chrome" class="fragment">
+						<img src="./firefox-results.jpg" alt="resultats firefox" class="fragment">
+					</section>
+					<section>
+							<h4>Selenium Grid</h4>
+							<img src="./grid.png" alt="Grid Diagram">
+					</section>
+					<section>
+							<h4><strong>Selenium Grid</strong> et un usage facilité avec Zalenium</h4>
+							<p> Zalongo a developpé Zalenium pour facilité la mise en oeuvre de Selenium grid avec des containers Dockers</p>
+					</section>
+					<section data-background-image="./live_preview.gif">
+					</section>
+					<section data-background-image="./dashboard.gif">
+					</section>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						#### Ressources
+* [Doc Selenium](https://www.selenium.dev)
+* [Doc Selenium Side Runner](https://www.npmjs.com/package/selenium-side-runner)
+* [Tableau Devops XebiaLabs](https://www.xebialabs.com/periodic-table-of-devops-tools)
+* [Doc Zalenium](https://opensource.zalando.com/zalenium/)
+* [Driver Chrome](http://chromedriver.storage.googleapis.com/index.html)
+* [Driver Firefox](https://github.com/mozilla/geckodriver/releases/)
+					</textarea>
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				hash: true,
+				slideNumber: 'c/t',
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/highlight/highlight.js' },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>

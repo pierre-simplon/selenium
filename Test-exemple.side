@@ -1,0 +1,1328 @@
+{
+  "id": "77233de7-fa5f-4048-b505-3e39dec30143",
+  "version": "2.0",
+  "name": "Test-Princess",
+  "url": "https://jlsgrand-angular-princess-lps.stackblitz.io",
+  "tests": [{
+    "id": "ced90a91-4880-4ef0-b64a-bf54f8aae082",
+    "name": "Test Princess",
+    "commands": [{
+      "id": "8b081bf1-d720-44cc-ba8f-ce1d01f91e83",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4385ffea-00c5-4852-9f37-21f1a26e22aa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "747x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3877d7e-9506-413e-acfa-92d1f07b92d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) button",
+      "targets": [
+        ["css=div:nth-child(2) button", "css:finder"],
+        ["xpath=//app-princess-details/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Liker la princesse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "decd4340-3bf9-446b-874f-1f076d5a3a76",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2523d4e-8762-47ba-8456-c328a26b4e16",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4b64bff-246f-46b1-ac24-73a005d0c2ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(5) button",
+      "targets": [
+        ["css=div:nth-child(5) button", "css:finder"],
+        ["xpath=//div[4]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94d87398-6979-4cd3-8fd4-24bdb7c440f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(6) button",
+      "targets": [
+        ["css=div:nth-child(6) button", "css:finder"],
+        ["xpath=//div[5]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "069d3c35-62c5-4a20-8349-f9e07d6524ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(6) button",
+      "targets": [
+        ["css=div:nth-child(6) button", "css:finder"],
+        ["xpath=//div[5]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50997676-45a9-4ad8-a875-d59a5fe6d23e",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f289887-258a-425b-9059-fc40b97e7738",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5166ed25-f053-4aff-a420-025455005076",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df2b6a30-7431-4747-b9d2-577f89fec201",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ed8721b-4fdd-4ac2-839a-c53a70821a11",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8ec10c3-b4cf-462a-b6c5-eb16e1ddd805",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6363ebc-d059-4577-850d-ffb78885aa91",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb4964a8-ea4b-4cd5-8666-1c218e0025c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d0b3849-0760-446c-9570-ea2b6178caf4",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) button",
+      "targets": [
+        ["css=div:nth-child(2) button", "css:finder"],
+        ["xpath=//app-princess-details/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Liker la princesse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93babc1a-b2d4-438c-a74f-78952ec23886",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) button",
+      "targets": [
+        ["css=div:nth-child(2) button", "css:finder"],
+        ["xpath=//app-princess-details/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Liker la princesse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24773947-bc49-459a-b112-f0bce96e6444",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(2) button",
+      "targets": [
+        ["css=div:nth-child(2) button", "css:finder"],
+        ["xpath=//app-princess-details/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Liker la princesse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7210388c-322d-42d2-b9be-bb08da0b350e",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) button",
+      "targets": [
+        ["css=div:nth-child(2) button", "css:finder"],
+        ["xpath=//app-princess-details/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Liker la princesse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "465d57ae-3a09-4a21-b0a3-2bdd0098d8a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd80925b-3e4b-4f50-b38a-54dd0cd56862",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a9b448a-8065-42a5-8627-2badb4cd7404",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7105841c-3402-4ae6-acf8-672f1b8259cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "864d3cec-e175-4e6b-a4ac-3be06d441a06",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd196ab1-672f-4727-a4bc-856102f6707c",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ea818c6-4646-4b7c-b125-55681bf24ce8",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(2) button",
+      "targets": [
+        ["css=div:nth-child(2) button", "css:finder"],
+        ["xpath=//app-princess-details/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Liker la princesse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d246971-5576-40ed-9bb6-8f32eb8f592b",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) button",
+      "targets": [
+        ["css=div:nth-child(2) button", "css:finder"],
+        ["xpath=//app-princess-details/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Liker la princesse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f95b0df-006b-4a36-9a7d-7e9b24f94ed9",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) button",
+      "targets": [
+        ["css=div:nth-child(2) button", "css:finder"],
+        ["xpath=//app-princess-details/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Liker la princesse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41101a90-1ce0-456c-a8d7-81fc78be6934",
+      "comment": "",
+      "command": "click",
+      "target": "css=app-princess-list",
+      "targets": [
+        ["css=app-princess-list", "css:finder"],
+        ["xpath=//app-princess-list", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6eb55c0-324f-4a2e-b8df-f384b4368a7b",
+      "comment": "",
+      "command": "click",
+      "target": "css=app-princess-list",
+      "targets": [
+        ["css=app-princess-list", "css:finder"],
+        ["xpath=//app-princess-list", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18051975-17a7-48ce-9fdf-0b31e63ddc78",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=app-princess-list",
+      "targets": [
+        ["css=app-princess-list", "css:finder"],
+        ["xpath=//app-princess-list", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6eb371cb-2ba3-4da7-99ed-c50a5d4bb7d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=app-princess-list",
+      "targets": [
+        ["css=app-princess-list", "css:finder"],
+        ["xpath=//app-princess-list", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d9e03fe-18d5-48c0-afee-b4b42566bca8",
+      "comment": "",
+      "command": "click",
+      "target": "css=app-princess-list",
+      "targets": [
+        ["css=app-princess-list", "css:finder"],
+        ["xpath=//app-princess-list", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b1f58da-67a2-4c71-b1f2-b4a1bd2003fa",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=app-princess-list",
+      "targets": [
+        ["css=app-princess-list", "css:finder"],
+        ["xpath=//app-princess-list", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf9c2ec8-3ea8-41d0-b108-781931eafe20",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fb83ba2-451e-4298-b6a4-167862ad92f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f8ac2a3-ba63-4e2a-afc2-823c8c06d33d",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8155f012-f685-43ed-84f5-4d3f98c596ab",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91ed0c2a-5c57-4908-a98d-8e364f51c172",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4009c109-a2d3-4f73-b8ff-c735ce4fe164",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c1ce8d7-c8fb-4dce-94e6-0eb141040457",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "adc233d1-12c4-4746-8838-d5a18cf84e5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60d235fe-68c2-427c-ab82-1aea9ac28395",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eca7b286-ba1c-437b-9f9a-eb640735591e",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d20f81e-406a-4e99-b190-005a7a4782d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2eb4750b-f702-46ee-ab5e-7b58562fb3eb",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(2) button",
+      "targets": [
+        ["css=div:nth-child(2) button", "css:finder"],
+        ["xpath=//app-princess-details/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Liker la princesse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f420cf9b-3cad-4d4c-86c1-93535cecaf7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87074297-7f58-4435-98da-8a6e0c6e8afc",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8acdfa3a-5805-4d80-8bf5-2754302b6cbc",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5557dff-38a1-49f2-890b-e50b3732872f",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a2a0bfb-c497-4e07-a60a-fbb241764ac8",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c28af092-cc4d-4bf8-a176-ea81c260931c",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a44c31a-7612-4e62-8199-86563ccaa89b",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "803e82f5-1fec-4b44-848c-fd021810ab52",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(2) button",
+      "targets": [
+        ["css=div:nth-child(2) button", "css:finder"],
+        ["xpath=//app-princess-details/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Liker la princesse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d084ace-b762-455f-9a60-cf4ba592cfe1",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02fe8e01-e0b3-4567-aae3-7b248612733e",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8da5d24-6f4b-48fa-ab38-03337884d079",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eef1a991-11ea-49de-a1f2-7e562d566a51",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "523adb93-1874-46a5-bce5-15d3191204b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e7df970-fd5d-4ac3-9e96-44a451c8cf23",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaf215c4-1eab-45e9-8cd2-0a267dc2dac0",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6d4933c-1494-47e7-9382-b4278564290a",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(2) button",
+      "targets": [
+        ["css=div:nth-child(2) button", "css:finder"],
+        ["xpath=//app-princess-details/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Liker la princesse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2efe244b-bb38-4e09-89ec-85a60c6d1222",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97b0985d-f9e2-4182-9bef-4953d31012cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87cfdb4f-1487-434c-81aa-f92c04b4d255",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3942813-7d75-4ab3-8a43-5b48c4b86bba",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff708a0c-e7a9-478a-9468-66fb6322f6b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "757537a6-bb1e-4335-aa1d-250db87cd3e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df7f3c4f-2360-4721-a7b0-55f00d557b8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bab71852-d01f-40dd-995e-167464a86aa3",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(2) button",
+      "targets": [
+        ["css=div:nth-child(2) button", "css:finder"],
+        ["xpath=//app-princess-details/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Liker la princesse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "068cf879-aa43-4919-b133-302afd3ec68c",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e075568b-0739-43c9-8e96-857af3e5c4ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b00fe88c-e6f9-452c-a537-3466ff9d2980",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3fa4a5e-06d8-415f-99bf-ce78791c83d8",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92652b4c-672e-4fdb-96aa-3f8d6b3c79df",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6d0c793-f6cf-4a5e-b30a-c30b358aeb5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54db1d3c-a9cf-4547-af30-9d44e5232015",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3b715fa-d79f-404a-9ada-350164174416",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(2) button",
+      "targets": [
+        ["css=div:nth-child(2) button", "css:finder"],
+        ["xpath=//app-princess-details/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Liker la princesse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53058865-d1e1-49fd-ad94-2ce40161f053",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f227f911-84a6-4b14-b639-4e8f702f682f",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b736363f-394f-4a16-ba72-6c7897bd861e",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73ab213d-4fda-4f2d-9bcd-fbe94771da33",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9091bfd-1361-4395-927a-5516606f68f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9bfc844-7781-4519-9016-aa2964f7dd3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(6) button",
+      "targets": [
+        ["css=div:nth-child(6) button", "css:finder"],
+        ["xpath=//div[5]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff35c6f3-f5e3-49c8-865c-c69e1c65e02e",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33861e5c-2c04-4f4e-93d3-669eb55b7702",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ad14ab7-7da3-4226-9af5-b7c3f98c6498",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf2af7ca-07ae-4512-8815-6dffef1a30fa",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5761af74-287b-4b38-8897-3a6bf71310ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7bffd15-a7bd-4f9b-bd01-1698a20d08c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "268ca398-9743-484c-aecf-9ce7cfec8c1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d156e18-caea-480e-b7ad-78876c8bd66a",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2347fa5-19b6-42e8-8767-3d991d61dbe7",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02d2c952-70c3-4245-91e5-cf42405e9205",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9738422-2eb5-4fe7-b5ac-4f07056f8416",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2edd190e-61e3-4243-a0e3-3e9bddf7e237",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "815499fc-9407-4871-9370-ac1c166f49a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f0c8230-a54f-4ed3-8f73-76e2a92cab18",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9341426-eaa2-44b2-bbc8-50c8b498d1ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc91608d-5633-426b-ac56-bb14e295122b",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edc55b5d-8531-4868-aa80-f53a04c24309",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ca1226c-b547-40d4-b359-cdf86c071716",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c2fd7c1-abd1-40f9-80cb-fa4b876941de",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9299c6f-98f4-4d26-95da-f7dfde0c47ef",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ca0df42-bf66-495c-8c66-0003c1cc392a",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c601f21-746f-436f-aa50-94cbf084557b",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "428e84d0-5867-4f19-8c8f-f5cb2dfe3fa6",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79aa0d34-874b-4b4e-8e9e-1fb4427e228b",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "102e1399-8a71-477a-8ccf-95fb29acba4b",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afcdd395-d21d-4522-ae35-31df9406b8e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b33758c-2c52-4fcc-9ac8-f3c3fe5f8b30",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5280e171-90f6-41af-a5b0-ee7170937f3b",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f494e20-eccb-49bb-a120-ccb9d047a6f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33626cc7-21ec-4ef5-b06b-de7cb378fa79",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1f3f106-4faf-4681-bbcf-6709c0f89366",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c59e0092-e2ff-4721-a53e-31e890cf6a18",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af3c7922-362d-419b-bbe5-6ade32a3c581",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "530addd6-3324-458e-9004-c9df44b32f38",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09bf97e7-6945-4953-8c38-473688dc6472",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6976270b-6acd-4e2f-b6a6-f73a0ff7d18f",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "372b21db-126d-45ff-b991-880fff2a828e",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5332657-a83e-48f7-adbf-ef08a22facda",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c53e0b38-0bb9-4909-ad50-ac00debc0f6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a4c26b5-82fb-44cf-bb07-e2861c516b89",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cafac0a6-a63a-4bb6-9473-8e352e43b977",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3)",
+      "targets": [
+        ["css=div:nth-child(3)", "css:finder"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57bcfb70-73cf-4bca-a107-862d16d2146b",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b46585d8-4de9-413b-b189-d17ed029519a",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) button",
+      "targets": [
+        ["css=div:nth-child(4) button", "css:finder"],
+        ["xpath=//div[3]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "211e382b-6232-4042-92ee-1280eef08964",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85a2dc73-594a-4c0f-89bc-50e76ad76e2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) button",
+      "targets": [
+        ["css=div:nth-child(3) button", "css:finder"],
+        ["xpath=//div[2]/app-princess-details/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "99b04b88-19bc-4318-95ea-0eb69b680053",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ced90a91-4880-4ef0-b64a-bf54f8aae082"]
+  }],
+  "urls": ["https://jlsgrand-angular-princess-lps.stackblitz.io/"],
+  "plugins": []
+}
